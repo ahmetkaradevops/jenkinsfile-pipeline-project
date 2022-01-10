@@ -7,6 +7,7 @@ pipeline {
                 sh 'python --version'
                 sh 'python pipeline.py'
                 echo 'Clarusway_Way to Reinvent Yourself'
+                sh 'python pipeline.py'
 
             }
         }
